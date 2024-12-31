@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项清单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>我的待办事项</h1>
+        
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="添加新的待办事项...">
+            <button id="addTask">添加</button>
+        </div>
+
+        <div class="tasks-container">
+            <h2>待完成</h2>
+            <ul id="tasksList"></ul>
+            
+            <h2>已完成</h2>
+            <ul id="completedList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
